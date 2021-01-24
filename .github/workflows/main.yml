@@ -27,7 +27,7 @@ jobs:
           git config --global user.name JS3322
           git status
           # change this remote url for examle your remote url is https://github.com/onatcipli/flutter_web.git then the following:
-          git remote add origin https://${{secrets.commit_secret}}@github.com/JS3322/portfolio_flutter
+          git remote add origin https://${{secrets.commit_secret}}@github.com/JS3322/portfolio_intro_flutter
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
