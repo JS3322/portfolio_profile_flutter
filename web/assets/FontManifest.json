@@ -2,23 +2,7 @@
   {
     "fonts": [
       {
-        "asset": "fonts/MaterialIcons-Regular.ttf"
-      }
-    ],
-    "family": "MaterialIcons"
-  },
-  {
-    "fonts": [
-      {
-        "asset": "fonts/Quicksand-Regular.otf"
-      }
-    ],
-    "family": "Quicksand"
-  },
-  {
-    "fonts": [
-      {
-        "asset": "fonts/Product-Sans-Regular.ttf"
+        "asset": "fonts/NanumGothicCoding.ttf"
       }
     ],
     "family": "ProductSans"
@@ -26,7 +10,7 @@
   {
     "fonts": [
       {
-        "asset": "fonts/Nexa-Bold.otf"
+        "asset": "fonts/NanumGothicCoding-Bold.ttf"
       }
     ],
     "family": "NexaBold"
@@ -34,7 +18,7 @@
   {
     "fonts": [
       {
-        "asset": "fonts/Nexa-Light.otf"
+        "asset": "fonts/NanumGothicCoding.ttf"
       }
     ],
     "family": "NexaLight"
