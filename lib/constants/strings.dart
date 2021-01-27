@@ -2,7 +2,6 @@ class Strings {
   Strings._();
 
   //intro text
-  static const String about_me = 'About Me';
   static const String about = '나';
   static const String me = '의 소개';
   static const String portfoli = '포트폴리';
@@ -14,7 +13,7 @@ class Strings {
   static const String rights_reserved = 'P. 2021 GANADA STEP. WELCOME.';
 
   //menu items
-  static const String menu_home = 'Home';
+  static const String menu_home = 'Intro';
   static const String menu_about = 'History';
   static const String menu_contact = 'Mini Project(정리중)';
 }

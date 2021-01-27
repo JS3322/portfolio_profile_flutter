@@ -298,7 +298,7 @@ class HomePage extends StatelessWidget {
   Widget _buildSkills(BuildContext context) {
     final List<Widget> widgets = skills
         .map((skill) => Padding(
-              padding: EdgeInsets.only(right: 8.0, bottom: 5.0),
+              padding: EdgeInsets.only(right: 8.0, top: 3.0),
               child: _buildSkillChip(context, skill),
             ))
         .toList();
