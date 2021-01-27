@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  //AppBar Methods:-------------------------------------------------------------
+  //AppBar----------------------------------------------------------------------
   Widget _buildAppBar(BuildContext context) {
     return AppBar(
       titleSpacing: 0.0,

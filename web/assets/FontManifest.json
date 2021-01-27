@@ -2,7 +2,7 @@
   {
     "fonts": [
       {
-        "asset": "fonts/NanumGothicCoding.ttf"
+        "asset": "fonts/ELAND_choice_M.ttf"
       }
     ],
     "family": "ProductSans"
@@ -18,7 +18,7 @@
   {
     "fonts": [
       {
-        "asset": "fonts/NanumGothicCoding.ttf"
+        "asset": "fonts/ELAND_choice_M.ttf"
       }
     ],
     "family": "NexaLight"
