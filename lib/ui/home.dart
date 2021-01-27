@@ -279,18 +279,17 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // Skills Methods:------------------------------------------------------------
+  // Skills:--------------------------------------------------------------------
   final skills = [
-    'Python',
-    'Java',
-    'Javascript',
-    'Rust',
-    'Jsp',
+    'Django',
+    'Numpy',
     'React',
+    'Jsp',
     'Yew',
     'Flutter',
     'Tailwind',
-    'Deeplearning',
+    'Kubernetes',
+    'Datamining',
     'Cloud',
     'Photoshop',
     'Lumiar',
@@ -299,7 +298,7 @@ class HomePage extends StatelessWidget {
   Widget _buildSkills(BuildContext context) {
     final List<Widget> widgets = skills
         .map((skill) => Padding(
-              padding: EdgeInsets.only(right: 8.0),
+              padding: EdgeInsets.only(right: 5.0),
               child: _buildSkillChip(context, skill),
             ))
         .toList();
