@@ -282,14 +282,13 @@ class HomePage extends StatelessWidget {
   // Skills:--------------------------------------------------------------------
   final skills = [
     'Django',
-    'Numpy',
     'React',
     'Jsp',
     'Yew',
     'Flutter',
     'Tailwind',
-    'Kubernetes',
     'Datamining',
+    'Kubernetes',
     'Cloud',
     'Photoshop',
     'Lumiar',
