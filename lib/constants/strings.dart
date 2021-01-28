@@ -10,10 +10,11 @@ class Strings {
   static const String summary = '눈이 오는 날은 겨울입니다. 춥네요.';
   static const String experience = '참여 프로젝트';
   static const String skills_i_have = '주요 기술';
-  static const String rights_reserved = 'P. 2021 GANADA STEP. WELCOME.';
+  static const String rights_reserved =
+      'P. 2021 GANADA STEP. OUR OBJECT UNDEFINED.';
 
   //menu items
-  static const String menu_home = 'Intro';
+  static const String menu_home = 'Profile';
   static const String menu_about = 'History';
-  static const String menu_contact = 'Mini Project(정리중)';
+  static const String menu_contact = 'BLOG(정리중)';
 }
