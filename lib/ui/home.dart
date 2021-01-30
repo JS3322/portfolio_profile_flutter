@@ -326,15 +326,27 @@ class HomePage extends StatelessWidget {
   // Education Methods:---------------------------------------------------------
   final educationList = [
     Education(
-      '2019년 7월',
+      '2019년 9월',
       '2020년 7월',
-      '서울대학교 통합관리시스템',
+      '서울대학교 청소년 진단모델링 통합관리시스템',
       '팀장',
     ),
     Education(
-      '2018년 9월',
+      '2020년 7월',
+      '2020년 8월',
+      '비인지진단 서비스 API 모델링 개발',
+      '팀장',
+    ),
+    Education(
+      '2019년 1월',
       '2019년 6월',
       '현대자동차 진단시스템',
+      '연구원',
+    ),
+    Education(
+      '2018년 9월',
+      '2018년 12월',
+      '삼성인력연구원 진단 시스템 개발',
       '연구원',
     ),
   ];
@@ -360,7 +372,7 @@ class HomePage extends StatelessWidget {
 
   Widget _buildEducationSummary() {
     return Text(
-      '참여했던 프로젝트 이력을 소개합니다.',
+      '한발짝 내딛은 저의 이력을 소개합니다.',
       style: TextStyles.body,
     );
   }
