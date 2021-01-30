@@ -83,13 +83,6 @@ class HomePage extends StatelessWidget {
         ),
         onPressed: () {},
       ),
-      MaterialButton(
-        child: Text(
-          Strings.menu_contact,
-          style: TextStyles.menu_item,
-        ),
-        onPressed: () {},
-      ),
     ];
   }
 
@@ -288,7 +281,6 @@ class HomePage extends StatelessWidget {
     'Flutter',
     'Tailwind',
     'Datamining',
-    'Kubernetes',
     'Cloud',
     'Photoshop',
     'Lumiar',
@@ -444,55 +436,6 @@ class HomePage extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.max,
       mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        GestureDetector(
-          onTap: () {
-            html.window.open("https://github.com/js3322", "Github");
-          },
-          child: Image.network(
-            Assets.github,
-            color: Color(0xFF45405B),
-            height: 20.0,
-            width: 20.0,
-          ),
-        ),
-        SizedBox(width: 16.0),
-        GestureDetector(
-          onTap: () {
-            html.window.open("https://github.com/js3322", "Instagram");
-          },
-          child: Image.network(
-            Assets.instagram,
-            color: Color(0xFF45405B),
-            height: 20.0,
-            width: 20.0,
-          ),
-        ),
-        SizedBox(width: 16.0),
-        GestureDetector(
-          onTap: () {
-            html.window.open("https://github.com/js3322", "Behance");
-          },
-          child: Image.network(
-            Assets.behance,
-            color: Color(0xFF45405B),
-            height: 20.0,
-            width: 20.0,
-          ),
-        ),
-        SizedBox(width: 16.0),
-        GestureDetector(
-          onTap: () {
-            html.window.open("mailto:bada@ganada.kr", "Mailto");
-          },
-          child: Image.network(
-            Assets.behance,
-            color: Color(0xFF45405B),
-            height: 20.0,
-            width: 20.0,
-          ),
-        ),
-      ],
     );
   }
 }

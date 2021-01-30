@@ -16,5 +16,4 @@ class Strings {
   //menu items
   static const String menu_home = 'Profile';
   static const String menu_about = 'History';
-  static const String menu_contact = 'BLOG(정리중)';
 }
