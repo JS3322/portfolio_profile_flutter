@@ -355,17 +355,8 @@ class HomePage extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        _buildEducationSummary(),
-        SizedBox(height: 8.0),
         _buildEducationTimeline(),
       ],
-    );
-  }
-
-  Widget _buildEducationSummary() {
-    return Text(
-      '발자취를 뒤돌아봅니다',
-      style: TextStyles.body,
     );
   }
 
