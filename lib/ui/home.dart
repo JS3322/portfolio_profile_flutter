@@ -328,7 +328,7 @@ class HomePage extends StatelessWidget {
     Education(
       '2019년 9월',
       '2020년 7월',
-      '서울대학교 청소년 진단모델링 통합관리시스템',
+      'S대학교 청소년 진단모델링 통합관리시스템',
       '팀장',
     ),
     Education(
@@ -340,13 +340,13 @@ class HomePage extends StatelessWidget {
     Education(
       '2019년 1월',
       '2019년 6월',
-      '현대자동차 진단시스템',
+      'H자동차 진단시스템',
       '연구원',
     ),
     Education(
       '2018년 9월',
       '2018년 12월',
-      '삼성인력연구원 진단 시스템 개발',
+      'S인력연구원 진단 시스템 개발',
       '연구원',
     ),
   ];
@@ -355,7 +355,6 @@ class HomePage extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        _buildEducationContainerHeading(),
         _buildEducationSummary(),
         SizedBox(height: 8.0),
         _buildEducationTimeline(),
@@ -363,16 +362,9 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  Widget _buildEducationContainerHeading() {
-    return Text(
-      Strings.experience,
-      style: TextStyles.sub_heading,
-    );
-  }
-
   Widget _buildEducationSummary() {
     return Text(
-      '한발짝 내딛은 저의 이력을 소개합니다.',
+      '발자취를 뒤돌아봅니다',
       style: TextStyles.body,
     );
   }
