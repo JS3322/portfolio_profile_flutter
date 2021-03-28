@@ -277,7 +277,6 @@ class HomePage extends StatelessWidget {
     'Django',
     'React',
     'Jsp',
-    'Yew',
     'Flutter',
     'Tailwind',
     'Datamining',
@@ -327,26 +326,14 @@ class HomePage extends StatelessWidget {
   final educationList = [
     Education(
       '2019년 9월',
-      '2020년 7월',
-      'S대학교 청소년 진단모델링 통합관리시스템',
-      '팀장',
-    ),
-    Education(
-      '2020년 7월',
       '2020년 8월',
-      '비인지진단 서비스 API 모델링 개발',
+      'S대학교 청소년 진단모델링 통합관리시스템, 비인지진단 서비스 API 모델링',
       '팀장',
-    ),
-    Education(
-      '2019년 1월',
-      '2019년 6월',
-      'H자동차 진단시스템',
-      '연구원',
     ),
     Education(
       '2018년 9월',
-      '2018년 12월',
-      'S인력연구원 진단 시스템 개발',
+      '2019년 8월',
+      'S인력연구원 진단 시스템 개발, H자동차 진단시스템, K대학교 입시원서 분석시스템',
       '연구원',
     ),
   ];
