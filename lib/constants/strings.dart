@@ -7,7 +7,8 @@ class Strings {
   static const String portfoli = 'PORTFOLI';
   static const String o = 'O';
   static const String headline = '';
-  static const String summary = 'sika 랜더링 고민 중입니다. (2020/03/20)';
+  static const String summary =
+      '문제를 정의하고 풀어가는 경험을 쌓아가며, 주위에 영향을 주고 받을 수 있는 메타포를 갖고, 꿈꾸는 즐거움을 아는 별바라기';
   static const String skills_i_have = 'SKILL KEYWORD';
   static const String rights_reserved = 'P. 2021 GANADA STEP. WELCOME.';
 

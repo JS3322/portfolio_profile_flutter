@@ -274,15 +274,16 @@ class HomePage extends StatelessWidget {
 
   // Skills:--------------------------------------------------------------------
   final skills = [
-    'Django',
-    'React',
-    'Jsp',
-    'Flutter',
-    'Tailwind',
-    'Datamining',
-    'Cloud',
-    'Photoshop',
-    'Lumiar',
+    '#Python',
+    '#React',
+    '#JSP',
+    '#SQL',
+    '#Cloud',
+    '#Architecture',
+    '#Pytorch',
+    '#Tailwind',
+    '#Photoshop',
+    '#Lumiar',
   ];
 
   Widget _buildSkills(BuildContext context) {
@@ -327,13 +328,13 @@ class HomePage extends StatelessWidget {
     Education(
       '2019년 9월',
       '2020년 8월',
-      'S대학교 청소년 진단모델링 통합관리시스템, 비인지진단 서비스 API 모델링',
+      'S대학교 청소년 진단 통합관리시스템, 비인지진단 API 개발',
       '팀장',
     ),
     Education(
       '2018년 9월',
       '2019년 8월',
-      'S인력연구원 진단 시스템 개발, H자동차 진단시스템, K대학교 입시원서 분석시스템',
+      'S인력연구원 진단시스템, H자동차 통계, K대학교 입시분석시스템',
       '연구원',
     ),
   ];
