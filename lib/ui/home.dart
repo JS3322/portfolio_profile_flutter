@@ -328,23 +328,23 @@ class HomePage extends StatelessWidget {
         .toList();
 
     final List<Widget> widgets_devops = devops
-        .map((skill) => Padding(
-              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 8.0),
-              child: _buildSkillChip(context, skill),
+        .map((devops) => Padding(
+              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 3.0),
+              child: _buildSkillChip(context, devops),
             ))
         .toList();
 
     final List<Widget> widgets_backend = backend
-        .map((skill) => Padding(
-              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 8.0),
-              child: _buildSkillChip(context, skill),
+        .map((backend) => Padding(
+              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 3.0),
+              child: _buildSkillChip(context, backend),
             ))
         .toList();
 
     final List<Widget> widgets_frontend = frontend
-        .map((skill) => Padding(
-              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 8.0),
-              child: _buildSkillChip(context, skill),
+        .map((frontend) => Padding(
+              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 3.0),
+              child: _buildSkillChip(context, frontend),
             ))
         .toList();
 
