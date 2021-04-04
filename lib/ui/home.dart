@@ -301,7 +301,6 @@ class HomePage extends StatelessWidget {
 
   final frontend = [
     '#React',
-    '#Nestjs',
     '#Nextjs',
     '#Storybook',
     '#Tailwind',
@@ -312,6 +311,7 @@ class HomePage extends StatelessWidget {
   final backend = [
     '#Flask',
     '#JSP',
+    '#Nestjs',
     '#Tomcat',
     '#Nginx',
     '#Git',
