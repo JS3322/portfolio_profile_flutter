@@ -6,7 +6,6 @@ import 'package:portfolio/constants/text_styles.dart';
 import 'package:portfolio/models/education.dart';
 import 'package:portfolio/utils/screen/screen_utils.dart';
 import 'package:portfolio/widgets/responsive_widget.dart';
-import 'dart:html' as html;
 
 class HomePage extends StatelessWidget {
   @override
@@ -274,20 +273,59 @@ class HomePage extends StatelessWidget {
 
   // Skills:--------------------------------------------------------------------
   final skills = [
-    '#Python',
+    '#Flask',
     '#React',
+    '#Nextjs',
     '#JSP',
-    '#SQL',
-    '#Cloud',
-    '#Architecture',
+    '#Gulp',
+    '#Babel',
+    '#Nginx',
+    '#Git',
+    '#Oracle SQL',
+    '#AWS Cloud',
     '#Pytorch',
     '#Tailwind',
     '#Photoshop',
     '#Lumiar',
   ];
 
+  final devops = [
+    '#Oracle SQL',
+    '#AWS Cloud',
+    '#docker',
+    '#Photoshop',
+    '#Lumiar',
+  ];
+
+  final frontend = [
+    '#React',
+    '#Nestjs',
+    '#Nextjs',
+    '#Storybook',
+    '#Tailwind',
+    '#Gulp',
+    '#Babel',
+  ];
+
+  final backend = [
+    '#Flask',
+    '#JSP',
+    '#Tomcat',
+    '#Nginx',
+    '#Git',
+    '#Sourcetree',
+    '#Pytorch',
+  ];
+
   Widget _buildSkills(BuildContext context) {
     final List<Widget> widgets = skills
+        .map((skill) => Padding(
+              padding: EdgeInsets.only(right: 8.0, top: 3.0),
+              child: _buildSkillChip(context, skill),
+            ))
+        .toList();
+
+    final List<Widget> widgets_devops = devops
         .map((skill) => Padding(
               padding: EdgeInsets.only(right: 8.0, top: 3.0),
               child: _buildSkillChip(context, skill),
@@ -300,7 +338,8 @@ class HomePage extends StatelessWidget {
       children: <Widget>[
         _buildSkillsContainerHeading(),
         Wrap(children: widgets),
-//        _buildNavigationArrows(),
+        _buildSkillsContainerHeading(),
+        Wrap(children: widgets_devops),
       ],
     );
   }
