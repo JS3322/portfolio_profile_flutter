@@ -282,7 +282,8 @@ class HomePage extends StatelessWidget {
     '#Nginx',
     '#Git',
     '#Oracle SQL',
-    '#AWS Cloud',
+    '#AWS EC2',
+    '#Oracle ADW',
     '#Pytorch',
     '#Tailwind',
     '#Photoshop',
@@ -291,8 +292,9 @@ class HomePage extends StatelessWidget {
 
   final devops = [
     '#Oracle SQL',
-    '#AWS Cloud',
-    '#docker',
+    '#AWS EC2',
+    '#Oracle ADW',
+    '#Docker',
     '#Photoshop',
     '#Lumiar',
   ];
@@ -320,14 +322,28 @@ class HomePage extends StatelessWidget {
   Widget _buildSkills(BuildContext context) {
     final List<Widget> widgets = skills
         .map((skill) => Padding(
-              padding: EdgeInsets.only(right: 8.0, top: 3.0),
+              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 3.0),
               child: _buildSkillChip(context, skill),
             ))
         .toList();
 
     final List<Widget> widgets_devops = devops
         .map((skill) => Padding(
-              padding: EdgeInsets.only(right: 8.0, top: 3.0),
+              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 3.0),
+              child: _buildSkillChip(context, skill),
+            ))
+        .toList();
+
+    final List<Widget> widgets_backend = backend
+        .map((skill) => Padding(
+              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 3.0),
+              child: _buildSkillChip(context, skill),
+            ))
+        .toList();
+
+    final List<Widget> widgets_frontend = frontend
+        .map((skill) => Padding(
+              padding: EdgeInsets.only(right: 8.0, top: 3.0, bottom: 3.0),
               child: _buildSkillChip(context, skill),
             ))
         .toList();
@@ -336,17 +352,33 @@ class HomePage extends StatelessWidget {
       mainAxisSize: MainAxisSize.max,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        _buildSkillsContainerHeading(),
-        Wrap(children: widgets),
-        _buildSkillsContainerHeading(),
+        _buildSkillsContainerHeading_backend(),
+        Wrap(children: widgets_backend),
+        _buildSkillsContainerHeading_frontend(),
+        Wrap(children: widgets_frontend),
+        _buildSkillsContainerHeading_devops(),
         Wrap(children: widgets_devops),
       ],
     );
   }
 
-  Widget _buildSkillsContainerHeading() {
+  Widget _buildSkillsContainerHeading_backend() {
     return Text(
-      Strings.skills_i_have,
+      Strings.skills_backend,
+      style: TextStyles.sub_heading,
+    );
+  }
+
+  Widget _buildSkillsContainerHeading_frontend() {
+    return Text(
+      Strings.skills_frontend,
+      style: TextStyles.sub_heading,
+    );
+  }
+
+  Widget _buildSkillsContainerHeading_devops() {
+    return Text(
+      Strings.skills_devops,
       style: TextStyles.sub_heading,
     );
   }
