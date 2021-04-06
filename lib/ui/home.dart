@@ -278,7 +278,6 @@ class HomePage extends StatelessWidget {
     '#Nextjs',
     '#JSP',
     '#Gulp',
-    '#Babel',
     '#Nginx',
     '#Git',
     '#Oracle SQL',
@@ -307,7 +306,6 @@ class HomePage extends StatelessWidget {
     '#Storybook',
     '#Tailwind',
     '#Gulp',
-    '#Babel',
   ];
 
   final backend = [
