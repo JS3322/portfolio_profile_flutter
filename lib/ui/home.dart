@@ -374,14 +374,18 @@ class HomePage extends StatelessWidget {
   Widget _buildSkillsContainerHeading_frontend() {
     return Text(
       Strings.skills_frontend,
-      style: TextStyles.sub_heading,
+      style: TextStyles.sub_heading.copyWith(
+        color: Color(0xFF50AFC0),
+      ),
     );
   }
 
   Widget _buildSkillsContainerHeading_devops() {
     return Text(
       Strings.skills_devops,
-      style: TextStyles.sub_heading,
+      style: TextStyles.sub_heading.copyWith(
+        color: Color(0xFF50AFC0),
+      ),
     );
   }
 
