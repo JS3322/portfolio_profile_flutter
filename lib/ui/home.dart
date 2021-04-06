@@ -295,6 +295,8 @@ class HomePage extends StatelessWidget {
     '#AWS EC2',
     '#Oracle ADW',
     '#Docker',
+    '#Git',
+    '#Sourcetree',
     '#Photoshop',
     '#Lumiar',
   ];
@@ -310,13 +312,11 @@ class HomePage extends StatelessWidget {
 
   final backend = [
     '#Flask',
+    '#Numpy',
     '#JSP',
     '#Nestjs',
     '#Tomcat',
     '#Nginx',
-    '#Git',
-    '#Sourcetree',
-    '#Pytorch',
   ];
 
   Widget _buildSkills(BuildContext context) {

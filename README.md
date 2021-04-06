@@ -4,13 +4,13 @@ PORTFOLIO_PROFILE
 ---
 ### Architecture
 >ui/home.dart
->1. constants/assets.dart';
->2. constants/fonts.dart';
->3. constants/strings.dart';
->4. constants/text_styles.dart';
->5. models/education.dart';
->6. utils/screen/screen_utils.dart';
->7. widgets/responsive_widget.dart';
+>1. constants/assets.dart
+>2. constants/fonts.dart
+>3. constants/strings.dart
+>4. constants/text_styles.dart
+>5. models/education.dart
+>6. utils/screen/screen_utils.dart
+>7. widgets/responsive_widget.dart
 
 ### [0.0.1] 2021-04-05
 
