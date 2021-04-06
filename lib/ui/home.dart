@@ -365,7 +365,9 @@ class HomePage extends StatelessWidget {
   Widget _buildSkillsContainerHeading_backend() {
     return Text(
       Strings.skills_backend,
-      style: TextStyles.sub_heading,
+      style: TextStyles.sub_heading.copyWith(
+        color: Color(0xFF50AFC0),
+      ),
     );
   }
 
