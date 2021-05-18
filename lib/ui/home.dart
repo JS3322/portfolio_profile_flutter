@@ -309,7 +309,7 @@ class HomePage extends StatelessWidget {
   ];
 
   final backend = [
-    '#Flask',
+    '#FastAPI',
     '#Numpy',
     '#JSP',
     '#Nestjs',
