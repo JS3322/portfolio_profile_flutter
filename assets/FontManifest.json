@@ -1,0 +1,26 @@
+[
+  {
+    "fonts": [
+      {
+        "asset": "fonts/NanumGothicCoding.ttf"
+      }
+    ],
+    "family": "ProductSans"
+  },
+  {
+    "fonts": [
+      {
+        "asset": "fonts/NanumGothicCoding-Bold.ttf"
+      }
+    ],
+    "family": "NexaBold"
+  },
+  {
+    "fonts": [
+      {
+        "asset": "fonts/NanumGothicCoding-Bold.ttf"
+      }
+    ],
+    "family": "NexaLight"
+  }
+]
