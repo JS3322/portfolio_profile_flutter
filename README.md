@@ -30,6 +30,6 @@ PORTFOLIO_PROFILE
 
 
 ---
-*Name: JS
-*Page: cleancode.kr
-*Email: js@cleancode.kr
+*name : JS  
+*page : cleancode.kr    
+*email : js@cleancode.kr  
