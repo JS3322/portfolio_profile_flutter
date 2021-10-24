@@ -30,5 +30,6 @@ PORTFOLIO_PROFILE
 
 
 ---
-*name : JS  
-*email : <bada@ganada.kr>
+*Name: JS
+*Page: cleancode.kr
+*Email: js@cleancode.kr
